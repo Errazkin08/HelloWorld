@@ -23,6 +23,7 @@ public class HelloWorld extends JFrame {
 							HashMap<String,String>();
 							hm.put("eu", "Kaixo Mundua");
 							hm.put("es", "Hola Mundo");
+							hm.put("pl", "Witaj świecie");
 							Message m=new Message ("hello world",hm);
 							HelloWorld frame = new HelloWorld(m, "eu");
 					frame.setVisible(true);
